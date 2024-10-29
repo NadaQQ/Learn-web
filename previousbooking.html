@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel ="stylesheet" href="../css/stylesheet.css">
+        <title>My Booking</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    </head>
+
+      <body>
+
+      <header id="navbar" class="page-header">
+        <nav class="navbar-container">
+            <!-- logo -->
+                  <a href="parent Home Page.html" id="l"><img class="logo" src="../images/Logo.PNG" alt="logo" > </a>
+        
+            <!-- الزر الي يظهر عند التصغير  -->
+                  <button type="button" id="navbar-toggle" aria-controls="navbar-menu"  aria-label="Toggle menu" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+        
+            <!--العناصر الي بتوجد في الهيدر + في الزر عند التصغير  -->
+                  <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                      <ul class="nav__links">
+                         <li class="navbar-item"><a href="parent Home Page.html" class="nav__link" >Home</a> </li>
+                         <li class="navbar-item"><a href="mailto:LearnInfo.sa@gmail.com" class="nav__link">Contact us</a></li>
+        
+                         <li class="nav-item dropdown">
+                            <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">My Bookings ⌄</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="currentbooking.html">Current Bookings</a></li>
+                              <li><a class="dropdown-item" href="previousbooking.html">Previous Bookings</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../images/person_icon.png" class="My-Profile" alt="My Profile"> </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="Parentprofile.html">Manage Profile</a></li>
+                              <!--<li><a class="dropdown-item" href="EditParentProfile.html">Manage Profile</a></li>-->
+                              <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                            </ul>
+                          </li>
+        
+                      </ul>
+                     </div>
+                 </nav>
+     </header>
+
+  <h1  class="sho-h" >My Previous Bookings</h1><br><br>
+
+  <div class=" shad">
+   <div class="picTuter">  <br>
+       <div class="pic-con-sh"> 
+         <img  src="../images/woman3.jpeg" alt="personal pic" class="per" ><br>
+           <h2>num: #033A476</h2> 
+       </div>
+   </div>
+   <div class="btn-p-b"><button class="button-review" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >write a review</button></div>
+       <div class="infoTuter">
+           <br>
+           <div class="row">
+             <h4 ><strong>Tutor's Name:</strong> Noura Saad </h4> 
+             <h5>Price: 1500 SR</h5>
+               <div class="bio-row">
+                   <p><span><strong> Kid's Name:</strong></span> Lara Abdullah</p>
+               </div> <br>
+               <div class="bio-row">
+                   <p ><span><strong>Kid's Age:</strong></span> 10 years old</p>
+               </div><br>
+               <div class="bio-row">
+                   <p><span><strong>Type Of Classes :</strong></span> Biology</p>
+               </div><br>
+               <div class="bio-row">
+                   <p ><span><strong>Start Date - End Date:</strong></span> 10/11/2022 - 20/11/2022</p></div>    <br>
+              <div class="bio-row">
+                    <p ><span><strong>Duration:</strong></span> 3:00 PM - 5:00 PM</p> </div>
+         </div>
+             
+   
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" herf="">X</button>
+              </div>
+              <div class="modal-body">
+
+               <h4 style="text-align: center;">How was your experience?</h4>
+                 <input type="text" id="form3Example4cd" class="form-control" placeholder="Title" >
+                 
+                 <label class="form-label" for="exampleFormControlTextarea1">Leave Your Review!</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                 <div class="star-rating" id ="star-rating" >
+                     <div class="star-input">
+                         <input type="radio" name="rating" id="rating-5">
+                         <label for="rating-5" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-4">
+                         <label for="rating-4" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-3">
+                         <label for="rating-3" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-2">
+                         <label for="rating-2" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-1">
+                         <label for="rating-1" class="fa fa-star "></label>
+         
+                         <!-- Rating Submit Form -->
+                         <form>
+                             <span class="rating-reaction"></span>
+                             <button type="submit" class="button-review" style="width: 100%;">Submit</button>
+                         </form>
+                     </div>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+
+
+       </div>
+
+</div>
+
+<div class=" shad">
+  <div class="picTuter">  <br>
+      <div class="pic-con-sh"> 
+        <img  src="../images/p3.png" alt="personal pic" class="per" ><br>
+          <h2>num: #033A476</h2> 
+      </div>
+  </div>
+  <div class="btn-p-b"><button class="button-review" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >write a review</button></div>
+   
+  <div class="infoTuter">
+          <br>
+          <div class="row">
+            <h4 ><strong>Tutor's Name:</strong> Khalid Fahmi </h4> 
+            <h5>Price: 1750 SR</h5>
+              <div class="bio-row">
+                  <p><span><strong> Kid's Name:</strong></span> Asma Abdullah</p>
+              </div> 
+              <div class="bio-row">
+                  <p><span><strong>Kid's Age:</strong></span> 13 years old</p>
+              </div>
+              <div class="bio-row">
+                  <p ><span><strong>Type Of Classes :</strong></span> English </p>
+              </div>
+              <div class="bio-row">
+                  <p><span><strong>Start Date - End Date:</strong></span> 12/10/2022 - 17/10/2022</p></div>    
+              <div class="bio-row">
+                    <p ><span><strong>Duration:</strong></span>2:00 PM - 4:00 PM</p></div>
+        </div>
+             
+             
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" herf="">X</button>
+              </div>
+              <div class="modal-body">
+
+               <h4 style="text-align: center;">How was your experience?</h4>
+                 <input type="text" id="form3Example4cd" class="form-control" placeholder="Title" >
+                 
+                 <label class="form-label" for="exampleFormControlTextarea1">Leave Your Review!</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                 <div class="star-rating" id ="star-rating" >
+                     <div class="star-input">
+                         <input type="radio" name="rating" id="rating-5">
+                         <label for="rating-5" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-4">
+                         <label for="rating-4" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-3">
+                         <label for="rating-3" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-2">
+                         <label for="rating-2" class="fa fa-star "></label>
+                         <input type="radio" name="rating" id="rating-1">
+                         <label for="rating-1" class="fa fa-star "></label>
+         
+                         <!-- Rating Submit Form -->
+                         <form>
+                             <span class="rating-reaction"></span>
+                             <button type="submit" class="button-review" style="width: 100%;">Submit</button>
+                         </form>
+                     </div>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+
+
+
+
+      </div>
+
+</div>
+
+<div class=" shad">
+    
+  <div class="picTuter">  <br>
+      <div class="pic-con-sh"> 
+        <img  src="../images/p4.png" alt="personal pic" class="per" ><br>
+          <h2>num: #033A476</h2> 
+      </div>
+      
+  </div>  
+  <div class="btn-p-b"><button class="button-review" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >write a review</button></div>
+      <div class="infoTuter">
+          <br>
+          <div class="row">
+            <h4 ><strong>Tutor's Name:</strong> Abdullah Tariq </h4> 
+            <h5>Price: 1200 SR</h5>
+              <div class="bio-row">
+                  <p ><span><strong> Kid's Name:</strong></span> Waleed Abdullahh</p>
+              </div> <br>
+              <div class="bio-row">
+                  <p ><span><strong>Kid's Age:</strong></span> 15 years old</p>
+              </div><br>
+              <div class="bio-row">
+                  <p><span><strong>Type Of Classes :</strong></span> Chemistry </p>
+              </div><br>
+              <div class="bio-row">
+                  <p><span><strong>Start Date - End Date:</strong></span>  25/12/2022 - 04/01/2023</p></div>    <br>
+             <div class="bio-row">
+                    <p ><span><strong>Duration:</strong></span> 6:00 PM - 8:00 PM</p></div>
+                </div>
+             
+   
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" herf="">X</button>
+                      </div>
+                      <div class="modal-body">
+        
+                       <h4 style="text-align: center;">How was your experience?</h4>
+                         <input type="text" id="form3Example4cd" class="form-control" placeholder="Title" >
+                         
+                         <label class="form-label" for="exampleFormControlTextarea1">Leave Your Review!</label>
+                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        
+                         <div class="star-rating" id ="star-rating" >
+                             <div class="star-input">
+                                 <input type="radio" name="rating" id="rating-5">
+                                 <label for="rating-5" class="fa fa-star "></label>
+                                 <input type="radio" name="rating" id="rating-4">
+                                 <label for="rating-4" class="fa fa-star "></label>
+                                 <input type="radio" name="rating" id="rating-3">
+                                 <label for="rating-3" class="fa fa-star "></label>
+                                 <input type="radio" name="rating" id="rating-2">
+                                 <label for="rating-2" class="fa fa-star "></label>
+                                 <input type="radio" name="rating" id="rating-1">
+                                 <label for="rating-1" class="fa fa-star "></label>
+                 
+                                 <!-- Rating Submit Form -->
+                                 <form>
+                                     <span class="rating-reaction"></span>
+                                     <button type="submit" class="button-review" style="width: 100%;">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                         </div>
+                         </div>
+                         </div>
+                         </div>
+        
+
+      </div>
+
+</div>
+
+<footer class="navbar" >
+  <p> &copy; 2023 Learn online tutoring platform <br>
+  <a href="mailto:LearnInfo.sa@gmail.com" style=" color: #8c7569 ;">Contact Us
+  <img src="../images/email_icon.png" alt="Contact Us"></a></p>
+</footer>
+
+<script src="../js/index.js"></script>
+
+</body>
+</html>
+
+
+
+  
