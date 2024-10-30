@@ -1,10 +1,10 @@
-# LERN 
+# LEARN 
 
 
 ---
 
 ## Overview
-LERN is an online tutoring platform that connects parents with qualified tutors. Designed to streamline the process of finding and booking tutors, LERN offers a user-friendly interface for job requests, tutor profiles, bookings, and reviews, making it easy for both parents and tutors to coordinate and communicate efficiently.
+LEARN is an online tutoring platform that connects parents with qualified tutors. Designed to streamline the process of finding and booking tutors, LEARN offers a user-friendly interface for job requests, tutor profiles, bookings, and reviews, making it easy for both parents and tutors to coordinate and communicate efficiently.
 
 ---
 
