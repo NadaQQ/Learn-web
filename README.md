@@ -1,5 +1,5 @@
 # LEARN 
-<img src="Logo.png" alt="Project Logo" width="1000"/> <!-- Adjust width as needed -->
+<img src="Images/widelogo.png" alt="Project Logo" width="1000"/> <!-- Adjust width as needed -->
 ---
 
 ## Overview
