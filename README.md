@@ -7,7 +7,7 @@ LEARN is an online tutoring website that connects parents with qualified tutors.
 
 ---
 
-## Tech Stack
+## Stack
 - **Front-end:** HTML, CSS, JavaScript
 - **Back-end:** PHP
 - **Database:** SQL
